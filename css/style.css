@@ -1006,19 +1006,24 @@ a:focus {
     }
 }
 .message{
-  border: none;
-  color: black;
+  color:black;
+ border-color:#d9a5b3;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: block;
   font-size: 16px;
   cursor: pointer;
-  background-color: #d9a5b3;
+  background-color:#d9a5b3;
   margin-left: auto;
   margin-right: auto;
 }
-
+.message:hover {
+    color: #1868ae;
+    background:transparent;
+    box-shadow: inset 0 0 0 0 #d9a5b3;
+    border-color: #1868ae;
+}
 
 /*******************************/
 /********* Footer CSS **********/
